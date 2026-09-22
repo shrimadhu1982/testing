@@ -1,7 +1,7 @@
 //describe() -test plan
 //it()/test()-test case
 //expect() -assertion
-const {add}=require("./calculator");
+const {add,mul}=require("./calculator");
 describe("Add feature of the calculator",()=>{
     test("Add 2 positive numbers ",()=>{
         expect(add(5,10)).toBe(15);
